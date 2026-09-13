@@ -1,0 +1,192 @@
+[
+  {
+    "id": "jia-mu",
+    "file": "jia-mu.png",
+    "mode": "RGBA",
+    "size": [
+      1600,
+      1600
+    ],
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "nonTransparentBBox": [
+      445,
+      170,
+      1154,
+      1490
+    ],
+    "baseline": 1489,
+    "sha256": "e64dfd370700b3b6d9cda00df6ab5f4411bccae7af79ee7b74068cad7a389d01"
+  },
+  {
+    "id": "yi-mu",
+    "file": "yi-mu.png",
+    "mode": "RGBA",
+    "size": [
+      1600,
+      1600
+    ],
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "nonTransparentBBox": [
+      447,
+      170,
+      1152,
+      1490
+    ],
+    "baseline": 1489,
+    "sha256": "1c3f39fe7e624b5e76ca872feb6e7848198c52f14c1eb98e98f656cee8c72675"
+  },
+  {
+    "id": "bing-fire",
+    "file": "bing-fire.png",
+    "mode": "RGBA",
+    "size": [
+      1600,
+      1600
+    ],
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "nonTransparentBBox": [
+      325,
+      170,
+      1274,
+      1490
+    ],
+    "baseline": 1489,
+    "sha256": "4e56e5415500017e748148c1fe4d7b4667cb98cef0a55688300d25c762dbef4b"
+  },
+  {
+    "id": "ding-fire",
+    "file": "ding-fire.png",
+    "mode": "RGBA",
+    "size": [
+      1600,
+      1600
+    ],
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "nonTransparentBBox": [
+      431,
+      170,
+      1168,
+      1490
+    ],
+    "baseline": 1489,
+    "sha256": "be00921394503884d57b9af4de541f0fdf44e4550b59162e1f358ec51a1daab9"
+  },
+  {
+    "id": "wu-earth",
+    "file": "wu-earth.png",
+    "mode": "RGBA",
+    "size": [
+      1600,
+      1600
+    ],
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "nonTransparentBBox": [
+      302,
+      170,
+      1298,
+      1490
+    ],
+    "baseline": 1489,
+    "sha256": "9c6e4e6dad743293a83633fa63707a42cc1b71dbbd54c92f5214bb892e5a3489"
+  },
+  {
+    "id": "ji-earth",
+    "file": "ji-earth.png",
+    "mode": "RGBA",
+    "size": [
+      1600,
+      1600
+    ],
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "nonTransparentBBox": [
+      406,
+      170,
+      1193,
+      1490
+    ],
+    "baseline": 1489,
+    "sha256": "d1f570449baf275a2f1db70400bb31cfb620c7c70300d966cf06ff849eb8e7d8"
+  },
+  {
+    "id": "geng-metal",
+    "file": "geng-metal.png",
+    "mode": "RGBA",
+    "size": [
+      1600,
+      1600
+    ],
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "nonTransparentBBox": [
+      299,
+      170,
+      1300,
+      1490
+    ],
+    "baseline": 1489,
+    "sha256": "f52f865f99ba18abdf5810555a61d8f9a6fbf9e70c6d4c4ec46001511f1c180e"
+  },
+  {
+    "id": "xin-metal",
+    "file": "xin-metal.png",
+    "mode": "RGBA",
+    "size": [
+      1600,
+      1600
+    ],
+    "alphaMin": 0,
+    "alphaMax": 237,
+    "nonTransparentBBox": [
+      322,
+      170,
+      1278,
+      1490
+    ],
+    "baseline": 1489,
+    "sha256": "06c7c9c7840571fdc3818119d7dc402f9add37ce519cfd1b4a4c71a82eb2d82e"
+  },
+  {
+    "id": "ren-water",
+    "file": "ren-water.png",
+    "mode": "RGBA",
+    "size": [
+      1600,
+      1600
+    ],
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "nonTransparentBBox": [
+      249,
+      170,
+      1351,
+      1490
+    ],
+    "baseline": 1489,
+    "sha256": "c43dee452cb5fa2696b29c06a494f2f823ecb0cc6c5a7235f84fe6adaf3ca5dc"
+  },
+  {
+    "id": "gui-water",
+    "file": "gui-water.png",
+    "mode": "RGBA",
+    "size": [
+      1600,
+      1600
+    ],
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "nonTransparentBBox": [
+      247,
+      170,
+      1352,
+      1490
+    ],
+    "baseline": 1489,
+    "sha256": "c6f54f319575edc58748d297c6848809579e2e70ace928bd8b633214efa61982"
+  }
+]

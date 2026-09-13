@@ -1,0 +1,27 @@
+import {profiles,readings} from './data.js';
+import {result,elements} from './render.js';
+import {calculateDayMaster,today,MIN_DATE} from './daymaster.js';
+const byId=Object.fromEntries(profiles.map(p=>[p.id,p]));
+const dateFromURL=()=>new URLSearchParams(location.hash.slice(1)).get('birthday')||new URLSearchParams(location.search).get('birthday');
+function validDate(date){if(!date||date<MIN_DATE||date>today())throw Error('请输入 1900 年至今天之间的有效公历日期。');return calculateDayMaster(date)}
+if(location.pathname.replace(/\/$/,'')==='/result'){
+ const birthday=dateFromURL();if(birthday){try{const info=validDate(birthday),p=profiles.find(p=>p.stem===info.dayMaster);document.querySelector('#app').innerHTML=result(p,readings,profiles);document.title=p.dayMaster+' · '+p.name+'｜日主图鉴';sessionStorage.setItem('daymaster-return','/result#birthday='+encodeURIComponent(birthday));}catch{document.querySelector('.form-error').textContent='生日无效，请重新输入有效的公历日期。';}}
+}
+if(document.querySelector('[data-page=result]'))for(const a of document.querySelectorAll('a[href^="/type/"]')){const u=new URL(a.href,location.origin);u.searchParams.set('from','result');a.href=u.pathname+u.search;}
+for(const input of document.querySelectorAll('input[type=date]'))input.max=today();
+for(const map of document.querySelectorAll('[data-map]'))map.addEventListener('click',e=>{const node=e.target.closest('[data-element]');if(!node)return;const element=elements.find(x=>x.id===node.dataset.element);map.querySelectorAll('[data-element]').forEach(b=>b.setAttribute('aria-pressed',String(b===node)));map.querySelector('.element-description>p').textContent=element.name+' · '+element.tendency;map.querySelector('.element-entries').replaceChildren(...element.ids.map(id=>{const a=document.createElement('a');a.href='/type/'+id;a.textContent=byId[id].dayMaster+' · '+byId[id].name+' →';return a}));});
+for(const form of document.querySelectorAll('.birth-form'))form.addEventListener('submit',e=>{e.preventDefault();const input=form.querySelector('input'),error=form.querySelector('.form-error');try{validDate(input.value);input.removeAttribute('aria-invalid');error.textContent='';location.assign('/result#birthday='+encodeURIComponent(input.value))}catch(err){error.textContent=err.message;input.setAttribute('aria-invalid','true');input.focus()}});
+for(const input of document.querySelectorAll('.birth-form input'))input.addEventListener('input',()=>{input.removeAttribute('aria-invalid');input.closest('form').querySelector('.form-error').textContent=''});
+const returnLink=document.querySelector('[data-return]');if(returnLink&&new URLSearchParams(location.search).get('from')==='result'){const back=sessionStorage.getItem('daymaster-return');if(back?.startsWith('/result#birthday=')){returnLink.href=back;returnLink.textContent='← 返回我的日主'}}
+if(document.querySelector('[data-page=home]'))sessionStorage.removeItem('daymaster-return');
+function status(text){document.querySelectorAll('.share-status').forEach(e=>e.textContent=text)}
+function loadImage(src){return new Promise((resolve,reject)=>{const i=new Image;i.onload=()=>resolve(i);i.onerror=()=>reject(Error('图片加载失败，请稍后再试。'));i.src=src})}
+function wrap(ctx,text,x,y,maxWidth,lineHeight){let row='';for(const char of text){if(ctx.measureText(row+char).width>maxWidth&&row){ctx.fillText(row,x,y);y+=lineHeight;row=''}row+=char}if(row)ctx.fillText(row,x,y);return y+lineHeight}
+let blobURL;
+async function makeShare(p){const [character,bg]=await Promise.all([loadImage('/characters/'+p.id+'.png?v=5-reference-20260906'),loadImage('/backgrounds/'+p.element+'.png')]);const c=document.createElement('canvas');c.width=1080;c.height=1440;const x=c.getContext('2d');const scale=Math.max(c.width/bg.width,c.height/bg.height);x.drawImage(bg,(1080-bg.width*scale)/2,(1440-bg.height*scale)/2,bg.width*scale,bg.height*scale);x.fillStyle='rgba(245,247,235,.88)';x.fillRect(0,0,1080,1440);x.fillStyle='#244e42';x.textAlign='center';x.font='28px "Microsoft YaHei", sans-serif';x.fillText('日 主 图 鉴  ·  八 字 日 主',540,90);x.drawImage(character,190,140,700,700);x.font='72px "Microsoft YaHei", sans-serif';x.fillText(p.dayMaster,540,885);x.font='34px "Microsoft YaHei", sans-serif';x.fillText(p.name+' · '+p.polarity+p.elementZh,540,955);x.font='27px "Microsoft YaHei", sans-serif';x.fillStyle='#506e60';wrap(x,p.deep.quote,540,1050,830,48);x.font='23px "Microsoft YaHei", sans-serif';x.fillText(p.keywords.slice(0,3).join('  ·  '),540,1250);x.font='20px "Microsoft YaHei", sans-serif';x.fillText('探索倾向，不定义人生。',540,1345);const blob=await new Promise(r=>c.toBlob(r,'image/png'));if(!blob)throw Error('身份卡生成失败，请重试。');return URL.createObjectURL(blob)}
+const dialog=document.querySelector('.share-dialog');
+for(const button of document.querySelectorAll('[data-share]'))button.addEventListener('click',async()=>{button.disabled=true;status('正在绘制身份卡…');try{const next=await makeShare(byId[button.dataset.share]);if(blobURL)URL.revokeObjectURL(blobURL);blobURL=next;dialog.querySelector('.share-preview').src=next;const link=dialog.querySelector('[data-download]');link.href=next;link.download=button.dataset.share+'-daymaster-v5.png';dialog.showModal();status('身份卡已生成，可以保存。')}catch(err){status(err.message)}finally{button.disabled=false}});
+for(const b of document.querySelectorAll('[data-close]'))b.addEventListener('click',()=>dialog.close());
+
+if(new URLSearchParams(location.search).get("qa")==="1")import("./qa-audit.js");
+

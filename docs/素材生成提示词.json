@@ -1,0 +1,117 @@
+[
+  {
+    "id": "jia-mu",
+    "source": "C:\\Users\\hhc78\\Desktop\\Codex 图像 2026年9月1日 17_30_16.png",
+    "sourceCrop": "C:\\Users\\hhc78\\Documents\\Codex\\2026-09-06\\b-w\\work\\v5-assets-strong\\source-reference-set\\jia-mu.png",
+    "path": "C:\\Users\\hhc78\\.codex\\generated_images\\01a0751a-687a-7782-97be-faa5e985c41b\\exec-adaf1996-9b95-44fc-b981-82f1f7d53c3f.png",
+    "promptSummaryZh": "保持源图甲木的脸、上伸姿势、深绿树干裙摆与叶片位置，仅高清化并增加树皮水彩层次、叶脉、深浅翠绿过渡和干湿笔触。",
+    "finalization": "本地纯白底去色抠图、边缘去白、1600×1600 RGBA、统一基线 y=1489。"
+  },
+  {
+    "id": "yi-mu",
+    "source": "C:\\Users\\hhc78\\Desktop\\Codex 图像 2026年9月1日 17_30_16.png",
+    "sourceCrop": "C:\\Users\\hhc78\\Documents\\Codex\\2026-09-06\\b-w\\work\\v5-assets-strong\\source-reference-set\\yi-mu.png",
+    "path": "C:\\Users\\hhc78\\.codex\\generated_images\\01a0751a-687a-7782-97be-faa5e985c41b\\exec-ba1a0653-35ee-4cab-82a6-9909c813c926.png",
+    "promptSummaryZh": "保持源图乙木的脸、S形藤蔓、叶芽数量和留白，仅把灰黄橄榄色调整为橄榄绿、苔绿和克制玉石绿，压低过曝并提高主体中间调、清晰度和实色感。",
+    "finalization": "本地纯白底去色抠图、边缘去白、1600×1600 RGBA、统一基线 y=1489。"
+  },
+  {
+    "id": "bing-fire",
+    "source": "C:\\Users\\hhc78\\Desktop\\Codex 图像 2026年9月1日 17_30_16.png",
+    "sourceCrop": "C:\\Users\\hhc78\\Documents\\Codex\\2026-09-06\\b-w\\work\\v5-assets-strong\\source-reference-set\\bing-fire.png",
+    "path": "C:\\Users\\hhc78\\.codex\\generated_images\\01a0751a-687a-7782-97be-faa5e985c41b\\exec-51fb9660-80f2-4dab-937a-af4e5d56de18.png",
+    "promptSummaryZh": "保持源图丙火的脸、外放姿势和上下火焰轮廓，高清化内外焰层、橙金过渡、透明焰缘与少量火星。",
+    "finalization": "本地纯白底去色抠图、边缘去白、1600×1600 RGBA、统一基线 y=1489。"
+  },
+  {
+    "id": "ding-fire",
+    "source": "C:\\Users\\hhc78\\Desktop\\Codex 图像 2026年9月1日 17_30_16.png",
+    "sourceCrop": "C:\\Users\\hhc78\\Documents\\Codex\\2026-09-06\\b-w\\work\\v5-assets-strong\\source-reference-set\\ding-fire.png",
+    "path": "C:\\Users\\hhc78\\.codex\\generated_images\\01a0751a-687a-7782-97be-faa5e985c41b\\exec-96b9dd3d-f9a1-4dfd-b0da-ad714997e994.png",
+    "promptSummaryZh": "保持源图丁火的内收姿势和珊瑚色火焰轮廓，强化双手守护的暖光核、小灯焰层次和细腻表情。",
+    "finalization": "本地纯白底去色抠图、边缘去白、1600×1600 RGBA、统一基线 y=1489。"
+  },
+  {
+    "id": "wu-earth",
+    "source": "C:\\Users\\hhc78\\Desktop\\Codex 图像 2026年9月1日 17_30_16.png",
+    "sourceCrop": "C:\\Users\\hhc78\\Documents\\Codex\\2026-09-06\\b-w\\work\\v5-assets-strong\\source-reference-set\\wu-earth.png",
+    "path": "C:\\Users\\hhc78\\.codex\\generated_images\\01a0751a-687a-7782-97be-faa5e985c41b\\exec-142f570e-1a01-464b-922e-22cab677592e.png",
+    "promptSummaryZh": "保持源图戊土的山体、环抱石带和叶芽轮廓，以连续赭石水彩层、克制矿物肌理和清晰叠压表现稳重体量，避免碎石感。",
+    "finalization": "本地纯白底去色抠图、边缘去白、1600×1600 RGBA、统一基线 y=1489。"
+  },
+  {
+    "id": "ji-earth",
+    "source": "C:\\Users\\hhc78\\Desktop\\Codex 图像 2026年9月1日 17_30_16.png",
+    "sourceCrop": "C:\\Users\\hhc78\\Documents\\Codex\\2026-09-06\\b-w\\work\\v5-assets-strong\\source-reference-set\\ji-earth.png",
+    "path": "C:\\Users\\hhc78\\.codex\\generated_images\\01a0751a-687a-7782-97be-faa5e985c41b\\exec-6ec84432-94c9-4a42-837d-c2f410d45285.png",
+    "promptSummaryZh": "保持源图己土的闭眼表情、捧盆姿势与柔和土色，把盆中幼苗改为一朵小型暖象牙黄五瓣花；土层使用连续柔和水彩，避免突兀颗粒和地质剖面。",
+    "finalization": "本地纯白底去色抠图、边缘去白、1600×1600 RGBA、统一基线 y=1489。"
+  },
+  {
+    "id": "geng-metal",
+    "source": "C:\\Users\\hhc78\\Desktop\\Codex 图像 2026年9月1日 17_30_16.png",
+    "sourceCrop": "C:\\Users\\hhc78\\Documents\\Codex\\2026-09-06\\b-w\\work\\v5-assets-strong\\source-reference-set\\geng-metal.png",
+    "path": "C:\\Users\\hhc78\\.codex\\generated_images\\01a0751a-687a-7782-97be-faa5e985c41b\\exec-e54fa53e-462e-4162-8f51-62bc270aa5f1.png",
+    "promptSummaryZh": "保持源图庚金的前倾姿势和刀锋碎片轮廓，高清化冷灰银色切面、利落水彩边缘与克制高光，避免塑料感。",
+    "finalization": "本地纯白底去色抠图、边缘去白、1600×1600 RGBA、统一基线 y=1489。"
+  },
+  {
+    "id": "xin-metal",
+    "source": "C:\\Users\\hhc78\\Desktop\\Codex 图像 2026年9月1日 17_30_16.png",
+    "sourceCrop": "C:\\Users\\hhc78\\Documents\\Codex\\2026-09-06\\b-w\\work\\v5-assets-strong\\source-reference-set\\xin-metal.png",
+    "path": "C:\\Users\\hhc78\\.codex\\generated_images\\01a0751a-687a-7782-97be-faa5e985c41b\\exec-32373140-87ee-478d-baa9-d91f116505d1.png",
+    "promptSummaryZh": "保持源图辛金的姿态、银白头部和飘带环绕结构，高清化银灰紫层次、珠玉光泽和小型星芒，避免过曝。",
+    "finalization": "本地纯白底去色抠图、边缘去白、1600×1600 RGBA、统一基线 y=1489。"
+  },
+  {
+    "id": "ren-water",
+    "source": "C:\\Users\\hhc78\\Desktop\\Codex 图像 2026年9月1日 17_30_16.png",
+    "sourceCrop": "C:\\Users\\hhc78\\Documents\\Codex\\2026-09-06\\b-w\\work\\v5-assets-strong\\source-reference-set\\ren-water.png",
+    "path": "C:\\Users\\hhc78\\.codex\\generated_images\\01a0751a-687a-7782-97be-faa5e985c41b\\exec-b3897202-d7e6-4bfb-ad03-6b8205418e10.png",
+    "promptSummaryZh": "保持源图壬水的外放姿势、卷浪和水环轮廓，高清化浪层、泡沫、水体透明度与向外流动感。",
+    "finalization": "本地纯白底去色抠图、边缘去白、1600×1600 RGBA、统一基线 y=1489。"
+  },
+  {
+    "id": "gui-water",
+    "source": "C:\\Users\\hhc78\\Desktop\\Codex 图像 2026年9月1日 17_30_16.png",
+    "sourceCrop": "C:\\Users\\hhc78\\Documents\\Codex\\2026-09-06\\b-w\\work\\v5-assets-strong\\source-reference-set\\gui-water.png",
+    "path": "C:\\Users\\hhc78\\.codex\\generated_images\\01a0751a-687a-7782-97be-faa5e985c41b\\exec-20d7c71a-a0c0-44ad-8285-6d49d0a0d965.png",
+    "promptSummaryZh": "保持源图癸水的内收坐姿、上扬水滴和细雨弧线，高清化透明水层、雨滴和安静蓝灰层次。",
+    "finalization": "本地纯白底去色抠图、边缘去白、1600×1600 RGBA、统一基线 y=1489。"
+  },
+  {
+    "id": "bg-home",
+    "path": "C:\\Users\\hhc78\\.codex\\generated_images\\01a07538-5b9c-7c93-ad82-49fefdae8ff5\\exec-0fd95cff-3da1-4042-938d-b5cc005da4e6.png",
+    "prompt": "Use case illustration-story. Paint an exquisite atmospheric watercolor background for a Chinese Gen Z elemental day-master storybook website. Landscape 2048x1360. Real hand-painted watercolor grain, wet-edge pigment sediment, delicate translucent washes, gently worn fine art paper, immersive layered depth. Same coherent peaceful magical-natural world, refined restrained colors. A balanced continuous night landscape combining jade woodland at left, distant warm coral sunset clouds, ochre rolling terrain, muted silver moonlit mountains and a calm deep blue lake; all five natural domains flow seamlessly with equal prominence, no single element dominating. Important composition: landscape art also works center-cropped on phone; reserve quiet low-detail central 55% and upper-middle for page text and character overlays. Landscape details concentrated at bottom and outer frame, no busy object behind copy. No people, creatures, characters, text, symbols, logo, watermark, UI, border, black overlay or dark vignette baked into painting. Full-bleed actual illustration, not a gradient."
+  },
+  {
+    "id": "bg-birthday",
+    "path": "C:\\Users\\hhc78\\.codex\\generated_images\\01a07538-5b9c-7c93-ad82-49fefdae8ff5\\exec-622f7b00-ee7d-4f92-880c-d7658c141d73.png",
+    "prompt": "Use case illustration-story. Paint an exquisite atmospheric watercolor background for a Chinese Gen Z elemental day-master storybook website. Landscape 2048x1360. Real hand-painted watercolor grain, wet-edge pigment sediment, delicate translucent washes, gently worn fine art paper, immersive layered depth. Same coherent peaceful magical-natural world, refined restrained colors. A quiet pale misty watercolor lake valley, thin layers of fog, distant soft green-grey hills, delicate sparse reeds at bottom corners, large calm pale blue-green upper and middle negative space for a birthday form. Important composition: landscape art also works center-cropped on phone; reserve quiet low-detail central 55% and upper-middle for page text and character overlays. Landscape details concentrated at bottom and outer frame, no busy object behind copy. No people, creatures, characters, text, symbols, logo, watermark, UI, border, black overlay or dark vignette baked into painting. Full-bleed actual illustration, not a gradient."
+  },
+  {
+    "id": "bg-wood",
+    "path": "C:\\Users\\hhc78\\.codex\\generated_images\\01a07538-5b9c-7c93-ad82-49fefdae8ff5\\exec-c0a7768c-97dc-412c-824a-5513d7a84212.png",
+    "prompt": "Use case illustration-story. Paint an exquisite atmospheric watercolor background for a Chinese Gen Z elemental day-master storybook website. Landscape 2048x1360. Real hand-painted watercolor grain, wet-edge pigment sediment, delicate translucent washes, gently worn fine art paper, immersive layered depth. Same coherent peaceful magical-natural world, refined restrained colors. A jade green woodland glade, beautifully layered tree branches and translucent leaves framing the outer edges, fern and moss near foreground corners, misty distant forest opening at middle, soft cool moonlit atmosphere. Important composition: landscape art also works center-cropped on phone; reserve quiet low-detail central 55% and upper-middle for page text and character overlays. Landscape details concentrated at bottom and outer frame, no busy object behind copy. No people, creatures, characters, text, symbols, logo, watermark, UI, border, black overlay or dark vignette baked into painting. Full-bleed actual illustration, not a gradient."
+  },
+  {
+    "id": "bg-fire",
+    "path": "C:\\Users\\hhc78\\.codex\\generated_images\\01a07538-5b9c-7c93-ad82-49fefdae8ff5\\exec-48712470-5aa3-4d93-a8b5-6b2ee0e7d9f9.png",
+    "prompt": "Use case illustration-story. Paint an exquisite atmospheric watercolor background for a Chinese Gen Z elemental day-master storybook website. Landscape 2048x1360. Real hand-painted watercolor grain, wet-edge pigment sediment, delicate translucent washes, gently worn fine art paper, immersive layered depth. Same coherent peaceful magical-natural world, refined restrained colors. A warm coral and amber twilight landscape, delicate glowing sunset cloud layers above distant rolling ridges, a subtle ribbon of warm light along the horizon, no literal flames, quiet airy central sky. Important composition: landscape art also works center-cropped on phone; reserve quiet low-detail central55% and upper-middle for page text and character overlays. Landscape details concentrated at bottom and outer frame, no busy object behind copy. No people, creatures, characters, text, symbols, logo, watermark, UI, border, black overlay or dark vignette baked into painting. Full-bleed actual illustration, not a gradient."
+  },
+  {
+    "id": "bg-earth",
+    "path": "C:\\Users\\hhc78\\.codex\\generated_images\\01a07538-5b9c-7c93-ad82-49fefdae8ff5\\exec-fcdeb350-5f18-4de8-9bcf-f7bd52ddd86b.png",
+    "prompt": "Use case illustration-story. Paint an exquisite atmospheric watercolor background for a Chinese Gen Z elemental day-master storybook website. Landscape 2048x1360. Real hand-painted watercolor grain, wet-edge pigment sediment, delicate translucent washes, gently worn fine art paper, immersive layered depth. Same coherent peaceful magical-natural world, refined restrained colors. Layered ochre-gold geological hills, sandy paths and weathered rock strata, warm umber earth and sparse meadow ground, generous quiet pale atmospheric sky and an open central valley. Important composition: landscape art also works center-cropped on phone; reserve quiet low-detail central55% and upper-middle for page text and character overlays. Landscape details concentrated at bottom and outer frame, no busy object behind copy. No people, creatures, characters, text, symbols, logo, watermark, UI, border, black overlay or dark vignette baked into painting. Full-bleed actual illustration, not a gradient."
+  },
+  {
+    "id": "bg-metal",
+    "path": "C:\\Users\\hhc78\\.codex\\generated_images\\01a07538-5b9c-7c93-ad82-49fefdae8ff5\\exec-3002913a-1a65-4d8e-8a6d-f7a99cf50166.png",
+    "prompt": "Use case illustration-story. Paint an exquisite atmospheric watercolor background for a Chinese Gen Z elemental day-master storybook website. Landscape 2048x1360. Real hand-painted watercolor grain, wet-edge pigment sediment, delicate translucent washes, gently worn fine art paper, immersive layered depth. Same coherent peaceful magical-natural world, refined restrained colors. Cool grey and muted silver-violet moonlit rock formations, delicate silver ripples in distant water, luminous pale moon above softened stone ridges, restrained mineral facets with spacious misty center. Important composition: landscape art also works center-cropped on phone; reserve quiet low-detail central55% and upper-middle for page text and character overlays. Landscape details concentrated at bottom and outer frame, no busy object behind copy. No people, creatures, characters, text, symbols, logo, watermark, UI, border, black overlay or dark vignette baked into painting. Full-bleed actual illustration, not a gradient."
+  },
+  {
+    "id": "bg-water",
+    "path": "C:\\Users\\hhc78\\.codex\\generated_images\\01a07538-5b9c-7c93-ad82-49fefdae8ff5\\exec-b962bc82-a867-4c1f-9620-549baf4b24e1.png",
+    "prompt": "Use case illustration-story. Paint an exquisite atmospheric watercolor background for a Chinese Gen Z elemental day-master storybook website. Landscape 2048x1360. Real hand-painted watercolor grain, wet-edge pigment sediment, delicate translucent washes, gently worn fine art paper, immersive layered depth. Same coherent peaceful magical-natural world, refined restrained colors. A deep blue lake and gently moving tidal shoreline, distant rain mist, delicate water ripples and soft rain veils, broad calm blue space and layered distant hills; quiet flowing atmosphere. Important composition: landscape art also works center-cropped on phone; reserve quiet low-detail central55% and upper-middle for page text and character overlays. Landscape details concentrated at bottom and outer frame, no busy object behind copy. No people, creatures, characters, text, symbols, logo, watermark, UI, border, black overlay or dark vignette baked into painting. Full-bleed actual illustration, not a gradient."
+  }
+]
